@@ -5,4 +5,8 @@ export const Container = styled.header`
   background-color: lightpink;
 
   padding-inline: 2rem;
+
+  img {
+    width: 10rem;
+  }
 `;
