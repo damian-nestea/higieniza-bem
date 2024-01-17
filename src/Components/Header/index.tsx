@@ -1,7 +1,8 @@
 import React from "react";
+import { Container } from "./styles";
 
 const Header = () => {
-  return <div>Header</div>;
+  return <Container>Header</Container>;
 };
 
 export default Header;
