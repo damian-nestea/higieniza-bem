@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "./styles";
-import { Link } from "react-router-dom";
+import RightNav from "./RIghtNav";
+import BurguerNav from "./BurguerNav";
 
 const Header = () => {
   return (
@@ -9,10 +10,8 @@ const Header = () => {
         src="https://avatars.githubusercontent.com/u/111815242?v=4"
         alt="Imagem"
       />
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-      </nav>
+      <BurguerNav />
+      <RightNav />
     </Container>
   );
 };
