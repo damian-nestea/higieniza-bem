@@ -6,6 +6,9 @@ export const Container = styled.header`
 
   padding-inline: 2rem;
 
+  display: flex;
+  justify-content: space-between;
+
   img {
     width: 10rem;
   }
