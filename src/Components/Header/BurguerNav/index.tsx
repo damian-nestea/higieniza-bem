@@ -1,8 +1,8 @@
 import React from "react";
 import { Container } from "./styles";
-import RightNav from "../RIghtNav";
+import RightNav from "../RightNav";
 
-export interface Props {
+export interface BurguerNavProps {
   open: boolean;
 }
 

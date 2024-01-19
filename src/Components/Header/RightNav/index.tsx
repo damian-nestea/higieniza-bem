@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Container } from "./styles";
-import { Props } from "../BurguerNav";
+import { BurguerNavProps } from "../BurguerNav";
 
-const RightNav = ({ open }: Props) => {
+const RightNav = ({ open }: BurguerNavProps) => {
   return (
     <Container open={open}>
       <Link to="/">Home</Link>
