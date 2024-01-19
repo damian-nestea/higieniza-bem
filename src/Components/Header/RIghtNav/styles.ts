@@ -1,11 +1,13 @@
 import styled from "styled-components";
+import { Props } from "../BurguerNav";
 
-export const Container = styled.nav`
+export const Container = styled.nav<Props>`
   display: flex;
   gap: 2rem;
 
+  transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
+
   @media (max-width: 750px) {
-    display: none;
     flex-flow: column nowrap;
 
     position: fixed;

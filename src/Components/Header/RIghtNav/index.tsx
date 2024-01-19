@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Container } from "./styles";
+import { Props } from "../BurguerNav";
 
-const RightNav = () => {
+const RightNav = ({ open }: Props) => {
   return (
-    <Container>
+    <Container open={open}>
       <Link to="/">Home</Link>
       <Link to="/about">Sobre</Link>
       <Link to="/about">Serviços</Link>

@@ -1,6 +1,5 @@
 import React from "react";
 import { Container } from "./styles";
-import RightNav from "./RIghtNav";
 import BurguerNav from "./BurguerNav";
 
 const Header = () => {
@@ -11,7 +10,6 @@ const Header = () => {
         alt="Imagem"
       />
       <BurguerNav />
-      <RightNav />
     </Container>
   );
 };

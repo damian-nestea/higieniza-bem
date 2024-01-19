@@ -8,6 +8,7 @@ export const Container = styled.header`
 
   display: flex;
   justify-content: space-between;
+
   img {
     width: 10rem;
   }
