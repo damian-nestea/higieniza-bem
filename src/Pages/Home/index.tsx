@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "./styles";
 import Section from "../../Components/Section";
+import Services from "../../Components/Services";
 
 const Home = () => {
   return (
@@ -25,6 +26,10 @@ const Home = () => {
           voluptate? Impedit voluptas sequi hic. Deleniti, aliquam enim?
           Cupiditate? Inventore veritatis accusamus, laboriosam quibusdam fugit.
         </p>
+      </Section>
+
+      <Section title="Serviços">
+        <Services />
       </Section>
     </Container>
   );

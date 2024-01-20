@@ -3,8 +3,7 @@ import styled from "styled-components";
 export const Container = styled.footer`
   width: 100%;
 
-  padding-block: 4rem;
-  padding-inline: 2rem;
+  padding: 4rem 2rem;
 
   display: flex;
   flex-flow: column nowrap;
