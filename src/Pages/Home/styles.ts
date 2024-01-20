@@ -14,7 +14,7 @@ export const Container = styled.main`
 
   div > p {
     position: absolute;
-    bottom: 0;
+    bottom: 0.4rem;
     width: 100%;
 
     padding: 3rem 1rem;
