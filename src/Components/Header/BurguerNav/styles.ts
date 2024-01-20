@@ -1,17 +1,21 @@
 import styled from "styled-components";
-import { Props } from "./index";
+import { BurguerNavProps } from "./index";
 
-export const Container = styled.div<Props>`
+export const Container = styled.div<BurguerNavProps>`
   width: 4rem;
   height: 3rem;
   position: fixed;
-  top: 15px;
-  right: 20px;
+  top: 5rem;
+  right: 2rem;
   z-index: 99;
 
-  display: flex;
-  justify-content: space-around;
-  flex-flow: column nowrap;
+  display: none;
+
+  @media (max-width: 750px) {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+  }
 
   div {
     width: 4rem;
