@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "./styles";
 import Section from "../../Components/Section";
 import Services from "../../Components/Services";
+import Carousel from "../../Components/Carousel";
 
 const Home = () => {
   return (
@@ -30,6 +31,10 @@ const Home = () => {
 
       <Section title="Serviços">
         <Services />
+      </Section>
+
+      <Section title="Depoimentos">
+        <Carousel />
       </Section>
     </Container>
   );
