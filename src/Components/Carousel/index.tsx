@@ -1,10 +1,15 @@
 import React from "react";
 import { Container } from "./styles";
 import { Swiper, SwiperSlide } from "swiper/react";
+import previousSlide from "../../Assets/previous.svg";
+import nextSlide from "../../Assets/next.svg";
 
 const Carousel = () => {
   return (
     <Container>
+      <div className="swiper-button-prev-unique">
+        <img src={previousSlide} alt="Imagem prévia" />
+      </div>
       <Swiper
         slidesPerView={1}
         pagination={{ clickable: true }}
@@ -38,8 +43,10 @@ const Carousel = () => {
           />
         </SwiperSlide>
       </Swiper>
-      <div className="swiper-button-prev-unique">A</div>
-      <div className="swiper-button-next-unique">B</div>
+
+      <div className="swiper-button-next-unique">
+        <img src={nextSlide} alt="Imagem prévia" />
+      </div>
     </Container>
   );
 };
