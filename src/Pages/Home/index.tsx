@@ -3,6 +3,7 @@ import { Container } from "./styles";
 import Section from "../../Components/Section";
 import Services from "../../Components/Services";
 import Carousel from "../../Components/Carousel";
+import Advantages from "../../Components/Advantages";
 
 const Home = () => {
   return (
@@ -36,6 +37,8 @@ const Home = () => {
       <Section title="Depoimentos">
         <Carousel />
       </Section>
+
+      <Advantages />
     </Container>
   );
 };
